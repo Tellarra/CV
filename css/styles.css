@@ -45,6 +45,14 @@ a:hover {
     color: #ffffff;
 }
 
+.ref-txt {
+    margin: auto;
+}
+
+.ref-txt:hover {
+    color: #f5b78a;
+}
+
 .top-txt {
     margin: 50px auto 0 auto;
 }
@@ -82,11 +90,6 @@ a:hover {
     bottom: 25rem;
     width: 5rem;
 
-}
-
-#profile_picture {
-    height: 15rem;
-    margin-top: 0.25rem;
 }
 
 .skill-row {
@@ -139,9 +142,9 @@ a:hover {
     font-size: 20px;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
-  }
+}
   
-  .btn:hover {
+.btn:hover {
     background: #f2fc3c;
     background-image: -webkit-linear-gradient(top, #f2fc3c, #ab6015);
     background-image: -moz-linear-gradient(top, #f2fc3c, #ab6015);
@@ -149,4 +152,9 @@ a:hover {
     background-image: -o-linear-gradient(top, #f2fc3c, #ab6015);
     background-image: linear-gradient(to bottom, #f2fc3c, #ab6015);
     text-decoration: none;
-  }
+}
+
+#profile_picture {
+    height: 15rem;
+    margin-top: 0.25rem;
+}
