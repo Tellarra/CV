@@ -5,53 +5,85 @@ body {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 3.1rem; 
+    line-height: 2;
+    color: rgba(248,137,94,1);
+    /* To put it in a dynamic : We need to do 50/16 (100%) */
+    /*It's better to use rem because it does not stack the differents font size */
 }
 
 h2 {
+    color: #f5b78a;
     font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
 }
 
 h3 {
+    color: #341c24;
     font-family: 'Ubuntu', sans-serif;
 }
 
 .top-txt {
-    margin-top: 0%;
-    color: rgba(248,137,94,1);
+    margin: 50px auto 0 auto;
 }
 
 .top-container {
     background: rgb(25,0,3);
     background: linear-gradient(0deg, rgba(25,0,3,1) 0%, rgba(248,137,94,1) 23%, rgba(46,9,60,1) 82%);
     position: relative;
-    padding-top: 100px;
+    padding-top: 1rem;
 }
 
-/* .middle-container {
-
-} */
+.tatooine {
+    width: 100%;
+}
 
 .bottom-container {
     display: inline-block;
+    background: linear-gradient(0deg, rgba(25,0,3,1) 0%, rgba(248,137,94,1) 23%, rgba(46,9,60,1) 82%);
+}
+
+.middle-container {
+    margin: 100px auto 100px auto;
 }
 
 .bottom-moon {
     position: absolute;
-    left: 200px;
-    bottom: 350px;
-    width: 80px;
+    left: 12.5rem;
+    bottom: 15.6rem;
+    width: 5rem;
 }
 
 .top-moon {
     position: absolute;
-    right: 300px;
-    bottom: 400px;
-    width: 80px;
+    right: 15rem;
+    bottom: 25rem;
+    width: 5rem;
 
 }
 
 #profile_picture {
-    height: 250px;
-    margin-top: 2%;
+    height: 15rem;
+    margin-top: 0.25rem;
+}
+
+.skill-row {
+    margin: 100px auto 100px auto;
+    width: 50%;
+    text-align: left;
+    line-height: 2;
+    
+}
+
+.coding-img {
+    width: 25%;
+    float: left;
+    margin-right: 2rem;
+}
+
+.game-img {
+    width: 25%;
+    float: right;
+    margin-left: 2rem;
 }
