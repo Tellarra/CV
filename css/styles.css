@@ -40,8 +40,8 @@ h3 {
 }
 
 .bottom-container {
-    display: inline-block;
-    background: linear-gradient(0deg, rgba(25,0,3,1) 0%, rgba(248,137,94,1) 23%, rgba(46,9,60,1) 82%);
+    padding-bottom: 1rem;
+    background: linear-gradient(0deg, rgba(25,0,3,1) 0%, rgba(248,137,94,1) 23%);
 }
 
 .middle-container {
