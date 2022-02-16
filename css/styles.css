@@ -24,6 +24,27 @@ h3 {
     font-family: 'Ubuntu', sans-serif;
 }
 
+p {
+    line-height: 2;
+}
+
+hr {
+    border: dotted rgba(248,137,94,1) 6px;
+    border-bottom: none;
+    width: 20%;
+    margin: 100px auto;
+}
+
+a {
+    font-family: 'Ubuntu, sans-serif';
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
 .top-txt {
     margin: 50px auto 0 auto;
 }
@@ -72,8 +93,22 @@ h3 {
     margin: 100px auto 100px auto;
     width: 50%;
     text-align: left;
-    line-height: 2;
-    
+    padding-bottom: 1rem;
+}
+
+.profile {
+    width: 50%;
+    margin: auto;
+}
+
+.message-me {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.copyright {
+    font-size: 0.75rem;
+    padding: 20px 0;
 }
 
 .coding-img {
@@ -86,4 +121,32 @@ h3 {
     width: 25%;
     float: right;
     margin-left: 2rem;
+    
 }
+
+.btn {
+    background: #d9ad34;
+    background-image: -webkit-linear-gradient(top, #d9ad34, #b8552b);
+    background-image: -moz-linear-gradient(top, #d9ad34, #b8552b);
+    background-image: -ms-linear-gradient(top, #d9ad34, #b8552b);
+    background-image: -o-linear-gradient(top, #d9ad34, #b8552b);
+    background-image: linear-gradient(to bottom, #d9ad34, #b8552b);
+    -webkit-border-radius: 18;
+    -moz-border-radius: 18;
+    border-radius: 18px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #f2fc3c;
+    background-image: -webkit-linear-gradient(top, #f2fc3c, #ab6015);
+    background-image: -moz-linear-gradient(top, #f2fc3c, #ab6015);
+    background-image: -ms-linear-gradient(top, #f2fc3c, #ab6015);
+    background-image: -o-linear-gradient(top, #f2fc3c, #ab6015);
+    background-image: linear-gradient(to bottom, #f2fc3c, #ab6015);
+    text-decoration: none;
+  }
